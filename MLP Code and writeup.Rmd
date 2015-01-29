@@ -131,12 +131,5 @@ write.csv(predicted_test_data,file="predicted_test_data.csv",row.names=F)
 ```
 
 
-
-
-
-
-
-
-
-
-
+### Next Step:  Client Validation
+The model is then provided to the client, as a data product or web portal making the the algorithm "black boxed" so that IP or code can be confidetial.  Another option is to provide the client with the actual code that they can run in a terminal with full transparency.  In this case the client could only input new data through a web page.  After submission, the web page would pedict whether the exercise was completed correctly or not for the participant.  The client had to then select whether the model was accurate or not.  At the end of 20 submissions, the model above was deemed to be 100% accurate in predicting the whether the participant performed the exercise correctly or not.
